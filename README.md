@@ -13,3 +13,4 @@ Here is a list of the validators currently available.
 Validator                               | Description
 --------------------------------------- | --------------------------------------
 **contains(str, seed [, options ])**    | check if the string contains the seed.<br/><br/>`options` is an object that defaults to `{ ignoreCase: false, minOccurrences: 1 }`.<br />Options: <br/> `ignoreCase`: Ignore case when doing comparison, default false<br/>`minOccurences`: Minimum number of occurrences for the seed in the string. Defaults to 1.
+**equals(str, comparison)**             | check if the string matches the comparison.

@@ -8,7 +8,6 @@ pub struct ContainsOptions {
 ///
 /// * `str` - Text to check if it contains the seed.
 /// * `pat` - Text with seed
-///
 pub fn contains(str: &str, pat: &str) -> bool {
     contains_with_options(str, pat, &ContainsOptions { ignore_case: None, min_occurences: None})
 }
