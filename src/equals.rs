@@ -7,7 +7,9 @@
 /// # Examples
 /// 
 /// ```
-/// equals("foo", "foo")
+/// use str_validator::equals;
+/// 
+/// println!("Equals: {}", equals("abc", "abc"));
 /// ```
 pub fn equals(str: &str, comparison: &str) -> bool {
     str == comparison
